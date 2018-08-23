@@ -1,0 +1,82 @@
+---
+title: "Enlightened Cornwall Telegram"
+output:
+  html_document:
+    toc: true
+    toc_float: true
+    toc_depth: 4
+    collapsed: false
+knit: (function(inputFile, encoding) {
+  rmarkdown::render(inputFile, encoding = encoding, output_dir = "docs", output_file ="index.html") }) 
+---
+
+```{r, echo=FALSE}
+htmltools::img(src = knitr::image_uri("telegram_logo.png"), 
+               alt = 'logo', 
+               style = 'position:absolute; top:0; right:0; padding:20px;')
+```
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(lubridate)
+library(mapview)
+library(sp)
+library(leaflet)
+```
+
+## Welcome {#welcome}
+Welcome to the landing page for the Cornwall Enlightened Telegram community. Telegram is a chat app that many Enlightened agents around the world use to coordinate their activities, plan operations, meet for socials, and to swap cake recipes + cat memes.
+
+We presume you are here because you might be interested in things like that.
+
+## Getting set-up on Telegram {#telegramsetup}
+What to do now?  Well first, make sure you have [Telegram installed](https://telegram.org/) on your phone or mobile device. Then [set your Telegram username](https://telegram.org/blog/usernames-and-secret-chats-v2) to be your agent name (or something similar if it's already taken e.g. 'DrManBun-Enl').
+
+Optionally, if you have an android phone, you might consider replacing the Telegram app with [Plus Messenger](https://play.google.com/store/apps/details?id=org.telegram.plus). It still *is* Telegram, but with a nicer interface (in our opinion).
+
+## For new players {#newplayers}
+Have a look through the [new player chat rooms](#newplayerchatrooms) below, find your local region, and click on the link. This will add you to a chat room with a few local Enlightened agents who can talk you through any questions you have about the game, and in time give you permission to join the ['Verified'](#verifiedplayers) chat room for your area that area.
+
+
+## New player chat rooms {#newplayerchatrooms}
+|  Area              |  New players                                |
+|:-------------------|:-------------------------------------------:|
+| Cornwall (West)     | [West Cornwall Enlightened]()  |
+
+## Social events
+The Enlightened in Cornwall are a pretty social bunch. We meet regularly for a drink, coffee or BBQ on the beach. We'd love you to join us. Ask in the chat rooms.
+
+## Useful bots and channels
+There are a number of news channels and bots in Telegram that you might want to look at. Here's a few of our favourites.
+
+* [IngressMosaikBot](https://telegram.me/IngressMosaikBot) - A bot that will show you banner missions near the location you send it
+* [Enlightened Today](https://telegram.me/IEToday) - Enlightened news, facts and fun from around the world
+* [V Bot](https://telegram.me/vtgadminbot) - A bot for V related things
+* [Rocks Bot](https://telegram.me/RocksBot) - A bot for Rocks related things
+* [IUENG](https://t.me/IUENG) - Crossfaction Ingress Updates in English, particularly good for anomalies
+* [EnlightenedUK](https://t.me/enlightenedUK) - Enlightened Ingress news - UK focused
+
+## Ingress Intel Total Conversion
+If you haven't found it yet, there's an online Ingress map. You can browse areas of the world to see portals and links, and if you're inclined, use it to plan your fields (or which areas to destroy!). The standard version of this map can [be found here](https://ingress.com/intel), viewable through a web-browser. However some clever people have an overlay for it, called IITC. It's like the standard map, but in an app, and with more options. You can find [more details about it here](https://iitc.me/).
+
+## For verified players {#verifiedplayers}
+The chat links shown in the 'Verified - local' and 'Verified - regional' rooms below are for Enlightened agents who are already active members of their local community and known to players of that area. To join those rooms you will need to be a member of the [Rocks community](https://enlightened.rocks/comm/) for that region. In addition, your Telegram name will need to be linked to a verified [Rocks](https://enlightened.rocks/me) *or* [v.enl.one](https://v.enl.one/profile/edit) profile.
+
+If you aren't in the correct [Rocks community](https://enlightened.rocks/comm/), the link will not work for you. In addition, if your Telegram isn't linked to a [Rocks](https://enlightened.rocks/me) *or* [v.enl.one](https://v.enl.one/profile/edit) profile you will be immediately 'booted' from the chat room by a Telegram bot (sorry, we love you really).
+
+## Verified player chat rooms {#newplayerchatrooms}
+|  Area                      | Verified - local                             | Verified - regional               |
+|:---------------------------|:--------------------------------------------:|:---------------------------------:|
+| Cornwall (West) Enlightened | [West Cornwall Enlightened]()              | [Cornwall Enlightened]()      |
+
+If you think that these links should be working for you, but they aren't, please talk to a member of your local community for help.
+
+## Copy this page? {#addingrooms}
+If you are reading this and you'd like to have a similar page for your area i.e. cornwall.theenl.uk or derbyshire.theenl.uk , then please join [this room](https://t.me/joinchat/CLM_hE_wtGS5NZ8N_iKm_g) to talk to someone about it (verified agents only). We can have you up and running, at no cost, in a day or three.
+
+## Other platforms
+[Ingress Enlightened UK on Facebook](https://www.facebook.com/EnlightenedUK/)
+
+[Enlightened UK Blog](https://enlighteneduk.blog/)
+
+Last updated `r format(Sys.time(), '%Y-%m%-%d %H%:%M')`
