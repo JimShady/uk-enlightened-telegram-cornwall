@@ -93,6 +93,9 @@ img {
 .tabbed-pane {
   padding-top: 12px;
 }
+.html-widget {
+  margin-bottom: 20px;
+}
 button.code-folding-btn:focus {
   outline: none;
 }
@@ -223,7 +226,7 @@ div.tocify {
 <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEcAAABHCAYAAABVsFofAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAGdYAABnWARjRyu0AAAAZdEVYdFNvZnR3YXJlAEFkb2JlIEltYWdlUmVhZHlxyWU8AAADImlUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNS4wLWMwNjAgNjEuMTM0Nzc3LCAyMDEwLzAyLzEyLTE3OjMyOjAwICAgICAgICAiPiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtbG5zOnhtcE1NPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvbW0vIiB4bWxuczpzdFJlZj0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL3NUeXBlL1Jlc291cmNlUmVmIyIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDo5MzlGMjg2NDI4RTcxMUUzQkYyM0FBNERDMTMxOEQ2RCIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDo5MzlGMjg2NTI4RTcxMUUzQkYyM0FBNERDMTMxOEQ2RCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkY0RTc0RTY3MjhFNjExRTNCRjIzQUE0REMxMzE4RDZEIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOkY0RTc0RTY4MjhFNjExRTNCRjIzQUE0REMxMzE4RDZEIi8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwv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" alt="logo" style="position:absolute; top:0; right:0; padding:20px;"/>
 <div id="welcome" class="section level2">
 <h2>Welcome</h2>
-<p>Welcome to the landing page for the Cornwall Enlightened Telegram community. Telegram is a chat app that many Enlightened agents around the world use to coordinate their activities, plan operations, meet for socials, and to swap cake recipes + cat memes.</p>
+<p>Welcome to the landing page for the West Cornwall Enlightened Telegram community. Telegram is a chat app that many Enlightened agents around the world use to coordinate their activities, plan operations, meet for socials, and to swap cake recipes + cat memes.</p>
 <p>We presume you are here because you might be interested in things like that.</p>
 </div>
 <div id="telegramsetup" class="section level2">
@@ -247,7 +250,7 @@ div.tocify {
 <tbody>
 <tr class="odd">
 <td align="left">Cornwall (West)</td>
-<td align="center"><a href>West Cornwall Enlightened</a></td>
+<td align="center"><a href="https://t.me/joinchat/CLM_hEiftTJQaCWzSCabmw">West Cornwall Enlightened</a></td>
 </tr>
 </tbody>
 </table>
@@ -290,22 +293,26 @@ div.tocify {
 <tbody>
 <tr class="odd">
 <td align="left">Cornwall (West) Enlightened</td>
-<td align="center"><a href>West Cornwall Enlightened</a></td>
+<td align="center"><a href="https://t.me/joinchat/CLM_hEVU0oUxK0TABfwgBg">West Cornwall Enlightened</a></td>
 <td align="center"><a href>Cornwall Enlightened</a></td>
 </tr>
 </tbody>
 </table>
 <p>If you think that these links should be working for you, but they aren’t, please talk to a member of your local community for help.</p>
 </div>
+<div id="community-rules" class="section level2">
+<h2>Community rules</h2>
+<p>Players in the West Cornwall Enlightened adhere to the <a href="https://support.ingress.com/hc/en-us/articles/206606858-Ingress-Community-Guidelines">Ingress community guidelines</a>, in particular ‘one accout one player’, and no ‘using tools or techniques to alter or falsify your location’. It ruins the game. Please don’t do it.</p>
+</div>
 <div id="addingrooms" class="section level2">
 <h2>Copy this page?</h2>
-<p>If you are reading this and you’d like to have a similar page for your area i.e. cornwall.theenl.uk or derbyshire.theenl.uk , then please join <a href="https://t.me/joinchat/CLM_hE_wtGS5NZ8N_iKm_g">this room</a> to talk to someone about it (verified agents only). We can have you up and running, at no cost, in a day or three.</p>
+<p>If you are reading this and you’d like to have a similar page for your area i.e. oxfordshire.theenl.uk or derbyshire.theenl.uk , then please join <a href="https://t.me/joinchat/CLM_hE_wtGS5NZ8N_iKm_g">this room</a> to talk to someone about it (verified agents only). We can have you up and running, at no cost, in a day or three.</p>
 </div>
 <div id="other-platforms" class="section level2">
 <h2>Other platforms</h2>
 <p><a href="https://www.facebook.com/EnlightenedUK/">Ingress Enlightened UK on Facebook</a></p>
 <p><a href="https://enlighteneduk.blog/">Enlightened UK Blog</a></p>
-<p>Last updated 2018-08-23 13:54</p>
+<p>Last updated 2018-08-31 13:23</p>
 </div>
 
 

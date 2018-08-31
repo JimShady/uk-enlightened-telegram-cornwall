@@ -25,7 +25,7 @@ library(leaflet)
 ```
 
 ## Welcome {#welcome}
-Welcome to the landing page for the Cornwall Enlightened Telegram community. Telegram is a chat app that many Enlightened agents around the world use to coordinate their activities, plan operations, meet for socials, and to swap cake recipes + cat memes.
+Welcome to the landing page for the West Cornwall Enlightened Telegram community. Telegram is a chat app that many Enlightened agents around the world use to coordinate their activities, plan operations, meet for socials, and to swap cake recipes + cat memes.
 
 We presume you are here because you might be interested in things like that.
 
@@ -41,7 +41,7 @@ Have a look through the [new player chat rooms](#newplayerchatrooms) below, find
 ## New player chat rooms {#newplayerchatrooms}
 |  Area              |  New players                                |
 |:-------------------|:-------------------------------------------:|
-| Cornwall (West)     | [West Cornwall Enlightened]()  |
+| Cornwall (West)     | [West Cornwall Enlightened](https://t.me/joinchat/CLM_hEiftTJQaCWzSCabmw)  |
 
 ## Social events
 The Enlightened in Cornwall are a pretty social bunch. We meet regularly for a drink, coffee or BBQ on the beach. We'd love you to join us. Ask in the chat rooms.
@@ -67,12 +67,15 @@ If you aren't in the correct [Rocks community](https://enlightened.rocks/comm/),
 ## Verified player chat rooms {#newplayerchatrooms}
 |  Area                      | Verified - local                             | Verified - regional               |
 |:---------------------------|:--------------------------------------------:|:---------------------------------:|
-| Cornwall (West) Enlightened | [West Cornwall Enlightened]()              | [Cornwall Enlightened]()      |
+| Cornwall (West) Enlightened | [West Cornwall Enlightened](https://t.me/joinchat/CLM_hEVU0oUxK0TABfwgBg)              | [Cornwall Enlightened]()      |
 
 If you think that these links should be working for you, but they aren't, please talk to a member of your local community for help.
 
+## Community rules
+Players in the West Cornwall Enlightened adhere to the [Ingress community guidelines](https://support.ingress.com/hc/en-us/articles/206606858-Ingress-Community-Guidelines), in particular 'one accout one player', and no 'using tools or techniques to alter or falsify your location'. It ruins the game. Please don't do it.
+
 ## Copy this page? {#addingrooms}
-If you are reading this and you'd like to have a similar page for your area i.e. cornwall.theenl.uk or derbyshire.theenl.uk , then please join [this room](https://t.me/joinchat/CLM_hE_wtGS5NZ8N_iKm_g) to talk to someone about it (verified agents only). We can have you up and running, at no cost, in a day or three.
+If you are reading this and you'd like to have a similar page for your area i.e. oxfordshire.theenl.uk or derbyshire.theenl.uk , then please join [this room](https://t.me/joinchat/CLM_hE_wtGS5NZ8N_iKm_g) to talk to someone about it (verified agents only). We can have you up and running, at no cost, in a day or three.
 
 ## Other platforms
 [Ingress Enlightened UK on Facebook](https://www.facebook.com/EnlightenedUK/)
